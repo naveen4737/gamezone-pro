@@ -37,3 +37,14 @@
     margin-left: auto;
     color: yellow;
 }
+
+.leave_room_btn{
+    padding: 10px;
+    /* width: 100%; */
+    margin-top: 15px;
+    margin-left: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(26, 22, 22, 0.986);
+    color: white;
+}

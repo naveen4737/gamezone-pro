@@ -140,7 +140,8 @@ const Game = () => {
                 {inRoom && (<div class="row game_players_div">
                     <div className="game_box col-md-6">
                         <div className="display_room">Room Code: <span className='display_room_code'>{roomName}</span>
-                        <i className="fa fa-copy copy_icon" onClick={() => {navigator.clipboard.writeText(roomName)}}></i></div>
+                            <i className="fa fa-copy copy_icon" onClick={() => {navigator.clipboard.writeText(roomName)}}></i>
+                        </div>
                         {!gameStarted && (<h4>Waiting for other player to join</h4>)}
 
                         {gameStarted && (

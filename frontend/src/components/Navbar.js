@@ -22,7 +22,7 @@ const Navbar = () => {
                                     <Link class="nav-link active" aria-current="page" to="/games">Play Game</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="https://github.com/naveen4737" target="_blank">Github <img src="./images/github.png" style={{width: "23px", height: "23px"}} alt="" /> </a>
+                                    <a class="nav-link active" href="https://github.com/naveen4737/gamezone-pro" target="_blank">Github <img src="./images/github.png" style={{width: "23px", height: "23px"}} alt="" /> </a>
                                 </li>
                             </ul>
                         </div>
