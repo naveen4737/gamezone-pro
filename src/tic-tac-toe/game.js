@@ -250,6 +250,9 @@ module.exports = (socket, io) => {
   const handlePlayAgain = (roomName) => {
 
     const roomState = state[roomName];    
+    if(!roomState){
+      return;
+    }
     var currentPlayerIndex = (roomState.players[0].player_id===socket.id)? 0: 1;
     var otherPlayerIndex = (roomState.players[0].player_id===socket.id)? 1: 0;
 
